@@ -1,100 +1,494 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v2.6.1, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-  </style>
+  <link rel="shortcut icon" href="assets/images/discover-mobile-350x350-16.png" type="image/x-icon">
+  <meta name="description" content="bootstrap carousel">
+  <title>Cracking the College Code</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="socicon.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mbr-additional.css" type="text/css">
+  
+  <style type="text/css">
+  #element1 {display:inline-block;margin-right:10px;} 
+  #element2 {display:inline-block;}
+ @font-face {
+  font-family: 'Chardons';
+  src: url('Chardons.ttf');
+}
+#hw{
+	font-family: 'Chardons';
+	
+}	
+@font-face {
+  font-family: 'UNIVERSAL-COLLEGE-draft';
+  src: url('College.ttf');
+}
+#rw{
+	font-family: 'UNIVERSAL-COLLEGE-draft';
+	font-size: 75px;
+	color: #ffa64d;
+	margin-bottom: 20px;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}	
+
+div.mbr-section__container {
+	padding-top:90px;
+}
+
+ </style>
+  
+  
+  
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-    </div>
-    <div class="col-sm-8 text-left"> 
-      <h1>Welcome</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <hr>
-      <h3>Test</h3>
-      <p>Lorem ipsum...</p>
-    </div>
-    <div class="col-sm-2 sidenav">
-      <div class="well">
-        <p>ADS</p>
-      </div>
-      <div class="well">
-        <p>ADS</p>
-      </div>
-    </div>
-  </div>
-</div>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
+<section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--transparent mbr-navbar--sticky mbr-navbar--auto-collapse" id="menu-20">
+    <div id="home" class="mbr-navbar__section mbr-section"  style="background-color:rgb(55,55,55);height:100px;">
+        <div class="mbr-section__container container"  style="padding-top:0;">
+            <div class="mbr-navbar__container" style="margin-top:-25px;">
+                <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
+                    <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
+                        <span class="mbr-brand__logo">
+						<img class="mbr-navbar__brand-img mbr-brand__img" src="apple4.png">
+						</span>
+                        <span id="rw"><a class="mbr-brand__name text-white" href="#home" style="position:relative;left:-85px;">Golden Hearts< CODE ></a></span>
+                    </span>
+                </div>
+                <div class="mbr-navbar__hamburger mbr-hamburger text-white"><span class="mbr-hamburger__line"></span></div>
+                <div class="mbr-navbar__column mbr-navbar__menu">
+
+                    <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right" >
+                        <div class="mbr-navbar__column"><ul  class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--
+						\right btn-decorator mbr-buttons--active" style="margin-right:-170px;margin-top:-80px">	
+                          
+   
+                          
+
+						<li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-black" href="#financial">CONTACT US</a></li> 
+						<li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-black" href="#applying">SUPPORT</a></li> 
+						<li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-black" href="#scores">ABOUT US</a></li>
+						<li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-black" href="#college">MAP</a></li>
+						<li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-black" href="#survey">GOLDEN HEARTS</a></li>
+                          
+             
+
+						</ul>
+						<style>
+							a.mbr-buttons__link {
+								color:white;
+								font-size: 11px;
+								height:15px;
+							}
+						</style>
+						</div>
+					</nav>
+				</div>
+				
+            </div>
+        </div>
+      </div>
+</section>
+
+
+<section class="mbr-slider mbr-section mbr-section--no-padding carousel slide" data-ride="carousel" data-wrap="true" data-interval="5000" id="slider-38" style="background-color: rgb(255, 255, 255);">
+    <div class="mbr-section__container">
+        <div>
+            <div class="carousel-inner" role="listbox">
+                <div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center mbr-section--full-height active" style="background-image: url(ColumbiaUniversity.jpg);">
+                    <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-after-navbar">
+                        <div class=" container">
+                            
+                            <div class="row"><div class="col-sm-8 col-sm-offset-2">
+                                <div class="mbr-hero">
+								
+                                    <h1 id="rw"> Golden <br> Hearts < CODE ></h1>
+									<p class="mbr-hero__subtext"></p>
+                                </div>
+                                <button><a class="btn" href="#">LOGIN</a> </button>
+								<button><a class="btn" href="#">SIGN UP</a> </button>
+                            </div></div>
+                        </div>
+                    </div>
+                </div>      
+            </div>   
+        </div>
+	</div>
+</section>
+
+                                
+                            
+
+
+<section class="msgbox-1" id="msg-box2-29" style="background-color: rgb(255, 212, 128);">
+    
+
+    <div class="container">
+        <div class="row">
+		<center>
+         <h1 id="hw">Golden Hearts a Path to Kindness.</h1>   
+        </center>
+    </div>
+</section>
+
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-parallax-background" id="msg-box5-25" >
+    
+<div id="survey" class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 168, 133);"></div>
+    <div class="mbr-section__container container">
+        <div class="mbr-header mbr-header--inline row">
+            <div class="col-sm-4">
+               <center> <h3 class="mbr-header__text">GOLDEN HEARTS</h3></center>
+            </div>
+		</div>
+    </div>
+</section>
+<section class="content-2 col-4" id="features1-31" style="background-color: rgb(255, 255, 255);">
+    
+    <div class="container">
+        <div class="row">
+		<div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg">
+						<p>
+						<center>
+            <img src="Start_Screen.png" alt="Start_Screen" style="width:800px;height:1500px;"> 
+              <button><a class="mbr-buttons__link btn text-black" href="#college">Play</a> </button>
+            </center>
+						
+						</p>
+						</div>
+						
+		</div>
+		
+</div>
+</div>
+</section>
+
+
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-parallax-background" id="msg-box5-25" >
+    
+<div id="college" class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 168, 133);"></div>
+    <div class="mbr-section__container container">
+        <div class="mbr-header mbr-header--inline row">
+            <div class="col-sm-4">
+               <center> <h3 class="mbr-header__text">MAP</h3></center>
+            </div>
+		</div>
+    </div>
+</section>
+<section class="content-2 col-4" id="features1-31" style="background-color: rgb(255, 255, 255);">
+    
+    <div class="container">
+        <div class="row">
+		<div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg">
+						<p>
+						<center>
+				
+ <img src="World_Map.png" alt="World_Map" style="width:800px;height:1500px;"> 
+						
+</center>
+						</p>
+						</div>
+		</div>
+</div>
+</div>
+</section>	
+
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-parallax-background" id="msg-box5-25" style="background-image: url(DukeUniversity.jpg);">
+<!--WORLD ONE-->    
+<div id="scores" class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 168, 133);"></div>
+    <div class="mbr-section__container container">
+        <div class="mbr-header mbr-header--inline row">
+            <div class="col-sm-4">
+               <center> <h3 class="mbr-header__text">WORLD 1</h3></center>
+            </div>
+		</div>
+    </div>
+</section>
+
+<section class="content-2 col-4" id="features1-31" style="background-color: rgb(255, 255, 255);">
+    
+    <div class="container">
+        <div class="row">
+		<div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg">
+						<p>
+						<center>
+               <img src="World_1.png" alt="World_1" style="width:800px;height:1500px;">
+						</center>
+						</p>
+						</div>
+		</div>
+</div>
+</div>
+</section>	
+
+<!--APPLYING-->
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-parallax-background" id="msg-box5-25" style="background-image: url(CambridgeUniversity.jpg);">
+    
+<div id="applying" class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 168, 133);"></div>
+    <div class="mbr-section__container container">
+        <div class="mbr-header mbr-header--inline row">
+            <div class="col-sm-4">
+               <center> <h3 class="mbr-header__text">APPLYING</h3></center>
+            </div>
+		</div>
+    </div>
+</section>
+<section class="content-2 col-4" id="features1-31" style="background-color: rgb(255, 255, 255);">
+    
+    <div class="container">
+        <div class="row">
+		<div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg">
+						<p>
+						<center>
+						
+						</center>
+						</p>
+						</div>
+		</div>
+</div>
+</div>
+</section>	
+
+
+<!--FINANCIAL AID-->
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-parallax-background" id="msg-box5-25" style="background-image: url(StanfordUniversity.jpg);">
+    
+<div id="financial" class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 168, 133);"></div>
+    <div class="mbr-section__container container">
+        <div class="mbr-header mbr-header--inline row">
+            <div class="col-sm-4">
+               <center> <h3 class="mbr-header__text">FINANCIAL AID</h3></center>
+            </div>
+		</div>
+    </div>
+</section>
+<section class="content-2 col-4" id="features1-31" style="background-color: rgb(255, 255, 255);">
+    
+    <div class="container">
+        <div class="row">
+		<div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg">
+						<p>
+						<center>
+						
+						
+						
+						
+						</center>
+						</p>
+						</div>
+		</div>
+</div>
+</div>
+</section>	
+
+
+<!--DECISIONS-->
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-parallax-background" id="msg-box5-25" style="background-image: url(UniversityTexas.jpg);">
+    
+<div id="decision" class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 168, 133);"></div>
+    <div class="mbr-section__container container">
+        <div class="mbr-header mbr-header--inline row">
+            <div class="col-sm-4">
+               <center> <h3 class="mbr-header__text">MAKING A DECISION</h3></center>
+            </div>
+		</div>
+    </div>
+</section>
+<section class="content-2 col-4" id="features1-31" style="background-color: rgb(255, 255, 255);">
+    
+    <div class="container">
+        <div class="row">
+		<div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg">
+						<p>
+	
+						
+						</p>
+						</div>
+		</div>
+</div>
+</div>
+</section>	
+
+
+
+<!--FINAL ACTS-->
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-parallax-background" id="msg-box5-25" style="background-image: url(WakeForest.jpg);">
+    
+<div id="final" class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 168, 133);"></div>
+    <div class="mbr-section__container container">
+        <div class="mbr-header mbr-header--inline row">
+            <div class="col-sm-4">
+               <center> <h3 class="mbr-header__text">FINAL ACTS</h3></center>
+            </div>
+		</div>
+    </div>
+</section>
+<section class="content-2 col-4" id="features1-31" style="background-color: rgb(255, 255, 255);">
+    
+    <div class="container">
+        <div class="row">
+		<div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg">
+						<p>
+						<center>
+		
+						
+						</center>
+						</p>
+						</div>
+		</div>
+</div>
+</div>
+</section>	
+
+
+
+	
+
+<section class="content-2 col-4" id="features1-31" style="background-color: rgb(153, 255, 187);">
+    
+    <div class="container">
+        <div class="row">
+		
+        </div>
+    </div>
+</section>
+
+
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="social-buttons1-33" style="background-color: rgb(247, 218, 100);">
+    
+
+    <div class="mbr-section__container container">
+       
+    </div>
+</section>
+
+
+<!--LEAVE THIS ALONE-->
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="testimonials1-34" style="background-color: rgb(255, 255, 255);">
+    <div>
+        
+        <div class="mbr-section__container mbr-section__container--std-padding container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="mbr-section__header">MEET THE CREATORS</h2>
+                    <ul class="mbr-reviews mbr-reviews--wysiwyg row">
+                        <li class="mbr-reviews__item col-sm-6 col-md-4">
+                            <div class="mbr-reviews__text"><p class="mbr-reviews__p">“ Vanessa is a senior from Texas, who decided to fly over to New York to learn how to code.”</p></div>
+                            <div class="mbr-reviews__author mbr-reviews__author--short">
+                                <div class="mbr-reviews__author-name">VANESSA</div>
+                                <div class="mbr-reviews__author-bio">Co-Creator</div>
+                            </div>
+                        </li><li class="mbr-reviews__item col-sm-6 col-md-4">
+                            <div class="mbr-reviews__text"><p class="mbr-reviews__p">“ Maydi is a junior from New York City who likes to learn new coding languages to let her ideas flow and create inovative projects. ”</p></div>
+                            <div class="mbr-reviews__author mbr-reviews__author--short">
+                                <div class="mbr-reviews__author-name">MAYDI</div>
+                                <div class="mbr-reviews__author-bio">Co-Creator</div>
+                            </div>
+                        </li><li class="mbr-reviews__item col-sm-6 col-md-4">
+                            <div class="mbr-reviews__text"><p class="mbr-reviews__p">Amaya is a senior from Atlanta who hopped into the car to head off to 
+							New York to attend the Girls Who Code program at Goldman Sachs</p></div>
+                            <div class="mbr-reviews__author mbr-reviews__author--short">
+                                <div class="mbr-reviews__author-name">AMAYA</div>
+                                <div class="mbr-reviews__author-bio">Co-Creator</div></div>
+                        </li><li class="mbr-reviews__item col-sm-6 col-md-4">
+                            <div class="mbr-reviews__text"><p class="mbr-reviews__p">Amaya is a senior from Atlanta who hopped into the car to head off to 
+							New York to attend the Girls Who Code program at Goldman Sachs</p></div>
+                            <div class="mbr-reviews__author mbr-reviews__author--short">
+                                <div class="mbr-reviews__author-name">AMAYA</div>
+                                <div class="mbr-reviews__author-bio">Co-Creator</div>
+                              </div>
+                        </li><li class="mbr-reviews__item col-sm-6 col-md-4">
+                            <div class="mbr-reviews__text"><p class="mbr-reviews__p">Amaya is a senior from Atlanta who hopped into the car to head off to 
+							New York to attend the Girls Who Code program at Goldman Sachs</p></div>
+                            <div class="mbr-reviews__author mbr-reviews__author--short">
+                                <div class="mbr-reviews__author-name">AMAYA</div>
+                                <div class="mbr-reviews__author-bio">Co-Creator</div>
+                              
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="form1-35" style="background-color: rgb(255, 230, 179);">
+    
+    <div class="mbr-section__container mbr-section__container--std-padding container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
+                        <div class="mbr-header mbr-header--center mbr-header--std-padding">
+                            <h2 class="mbr-header__text">TALK TO US</h2>
+                        </div>
+                        <div data-form-alert="true"></div>
+                        <form action="https://mobirise.com/" method="post" data-form-title="CONTACT FORM">
+                            <input type="hidden" value="" data-form-email="true">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" required="" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                            </div>
+                            <button type="submit"><a class="btn" href="#">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="mbr-section mbr-section--relative mbr-section--fixed-size" id="footer1-37" style="background-color: rgb(68, 68, 68);">
+    
+    <div class="mbr-section__container container">
+        <div class="mbr-footer mbr-footer--wysiwyg row">
+            <div class="col-sm-12">
+                <p class="mbr-footer__copyright"></p><p>Copyright (c) 2016 M&V&A. <a href="#" class="text-gray">License</a></p><p></p>
+            </div>
+        </div>
+    </div>
 </footer>
 
+
+  <script src="jquery/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="smooth-scroll/SmoothScroll.js"></script>
+  <script src="bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+  <script src="jarallax/jarallax.js"></script>
+  <script src="masonry/masonry.pkgd.min.js"></script>
+  <script src="imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="social-likes/social-likes.js"></script>
+  <script src="mobirise/js/script.js"></script>
+  <script src="mobirise-gallery/script.js"></script>
+  
+  
 </body>
 </html>
